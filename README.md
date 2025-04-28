@@ -49,6 +49,21 @@ src/app/api/agent/route.ts
 
 Reemplaza `[API]` por la URL de tu API desplegada.
 
+## Variables esperadas en la página
+
+En el archivo:
+
+```
+src/app/page.tsx
+```
+
+Se puede observar que la API espera las siguientes variables:
+
+- `msg`: variable que contiene el contenido de la caja de texto.
+- `idagente`: identificador utilizado para mantener el historial de conversaciones.
+
+Ustedes pueden agregar, cambiar o eliminar variables de acuerdo con sus necesidades.
+
 ---
 
 **Autor: MAC**
